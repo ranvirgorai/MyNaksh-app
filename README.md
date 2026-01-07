@@ -38,6 +38,10 @@ Then:
 
 ---
 
+# Appliaction preview
+
+![Preview 1](assets/screenshots/IMG_4307.PNG) ![Preview 2](assets/screenshots/IMG_4308.PNG)
+
 ## Architecture Overview
 
 ### 1. Reanimated v4 & Animations
