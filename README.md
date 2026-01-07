@@ -4,6 +4,40 @@ A chat interface built with React Native. The project uses
 `react-native-reanimated` (v4+) for UI-thread animations and the modern Gesture
 API from `react-native-gesture-handler` to handle pan + long-press gestures.
 
+## Getting Started
+
+### Prerequisites
+```bash
+node --version  # >= 20
+npm --version   # or yarn
+```
+
+### Setup
+```bash
+npm install
+# or
+yarn install
+```
+
+### Development
+```bash
+npx expo start
+```
+Then:
+- Press `i` for iOS
+- Press `a` for Android
+- Scan QR code with Expo app
+
+### Testing Features
+1. **Swipe right** on a message → reply triggers
+2. **Long-press** a message (500ms) → emoji bar appears
+3. **Tap emoji** → reaction bubble attaches
+4. **Press back** in header → rating modal appears
+5. **Select star** → animates; submit saves rating
+6. **Type in input** → keyboard opens, list scrolls to top; keyboard closes, scrolls back
+
+---
+
 ## Architecture Overview
 
 ### 1. Reanimated v4 & Animations
@@ -221,39 +255,6 @@ store/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-```bash
-node --version  # >= 20
-npm --version   # or yarn
-```
-
-### Setup
-```bash
-npm install
-# or
-yarn install
-```
-
-### Development
-```bash
-npx expo start
-```
-Then:
-- Press `i` for iOS
-- Press `a` for Android
-- Scan QR code with Expo app
-
-### Testing Features
-1. **Swipe right** on a message → reply triggers
-2. **Long-press** a message (500ms) → emoji bar appears
-3. **Tap emoji** → reaction bubble attaches
-4. **Press back** in header → rating modal appears
-5. **Select star** → animates; submit saves rating
-6. **Type in input** → keyboard opens, list scrolls to top; keyboard closes, scrolls back
-
----
 
 ## Future Enhancements
 
